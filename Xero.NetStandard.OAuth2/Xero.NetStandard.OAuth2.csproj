@@ -9,7 +9,7 @@ Contact: api@xero.com
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Xero.NetStandard.OAuth2</PackageId>
+    <PackageId>HRCentral.Xero.NetStandard.OAuth2</PackageId>
     <Version>3.8.0</Version>
     <Authors>Xero API</Authors>
     <Company>Xero</Company>
