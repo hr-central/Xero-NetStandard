@@ -96,7 +96,7 @@ namespace Xero.NetStandard.OAuth2.Model.PayrollNz
         /// </summary>
         /// <value>See Calculation Types</value>
         [DataMember(Name="calculationType", EmitDefaultValue=false)]
-        public CalculationTypeEnum CalculationType { get; set; }
+        public CalculationTypeEnum? CalculationType { get; set; }
         /// <summary>
         /// Optional Type Of Units. Applicable when calculation type is Rate Per Unit
         /// </summary>
@@ -123,7 +123,7 @@ namespace Xero.NetStandard.OAuth2.Model.PayrollNz
         /// </summary>
         /// <value>Optional Type Of Units. Applicable when calculation type is Rate Per Unit</value>
         [DataMember(Name="standardTypeOfUnits", EmitDefaultValue=false)]
-        public StandardTypeOfUnitsEnum StandardTypeOfUnits { get; set; }
+        public StandardTypeOfUnitsEnum? StandardTypeOfUnits { get; set; }
         /// <summary>
         /// Initializes a new instance of the <see cref="Reimbursement" /> class.
         /// </summary>
