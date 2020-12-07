@@ -85,8 +85,13 @@ namespace Xero.NetStandard.OAuth2.Model.PayrollAu
         /// Enum BONUSESANDCOMMISSIONS for value: BONUSESANDCOMMISSIONS
         /// </summary>
         [EnumMember(Value = "BONUSESANDCOMMISSIONS")]
-        BONUSESANDCOMMISSIONS = 9
+        BONUSESANDCOMMISSIONS = 9,
 
+        /// <summary>
+        /// Enum LUMPSUME for value: LUMPSUME
+        /// </summary>
+        [EnumMember(Value = "LUMPSUME")]
+        LUMPSUME = 10
     }
 
 }
