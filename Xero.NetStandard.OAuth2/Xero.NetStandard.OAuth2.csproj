@@ -6,7 +6,7 @@
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
     <AssemblyName>Xero.NetStandard.OAuth2</AssemblyName>
-    <PackageId>Xero.NetStandard.OAuth2</PackageId>
+    <PackageId>Hrc.Xero.NetStandard.OAuth2</PackageId>
     <OutputType>Library</OutputType>
     <Authors>Xero API</Authors>
     <Company>Xero</Company>
