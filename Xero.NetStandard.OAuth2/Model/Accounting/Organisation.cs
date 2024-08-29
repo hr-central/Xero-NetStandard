@@ -584,7 +584,7 @@ namespace Xero.NetStandard.OAuth2.Model.Accounting
         /// </summary>
         /// <value>Organisation Classes describe which plan the Xero organisation is on (e.g. DEMO, TRIAL, PREMIUM)</value>
         [DataMember(Name="Class", EmitDefaultValue=false)]
-        public ClassEnum Class { get; set; }
+        public string Class { get; set; }
         /// <summary>
         /// BUSINESS or PARTNER. Partner edition organisations are sold exclusively through accounting partners and have restricted functionality (e.g. no access to invoicing)
         /// </summary>
